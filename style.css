@@ -1,0 +1,255 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family:"poppins,sans-serif";
+    background-color: rgba(0, 0, 0, 0.956);
+    color:white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 22px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+ul{
+    display: flex;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-inline: 22px;
+}
+ul li a:hover{
+    color: rgba(50, 102, 245);
+}
+.d1 {
+    font-size: 15px;
+}
+.d1 h1{
+    color: rgb(50, 102, 245);
+    font-size: 30px;
+    
+}
+.d1 span{
+    color: white;
+    font-size: 20px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.maintext h1{
+    font-size: 50px;
+}
+.maintext span{
+    color:rgb(50, 102, 245);
+}
+.maintext h3{
+    font-size: 30px;
+}
+.maintext button{
+    width: 140px;
+    height: 40px;
+    background-color: rgb(50, 102, 245);
+    font-size: 19px;
+    border: none;
+    margin-top: 24px;
+    color: white;
+}
+button:hover{
+    border: 2px solid rgba(50, 102, 245);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.head{
+    text-align: center;
+    padding: 60px;
+    height: 10px;
+
+}
+.head span{
+    color: rgb(50, 102, 245);
+}
+
+
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.179);
+    padding: 80px;
+    
+    
+}
+.about img{
+    width: 300px;
+    height: 320px;
+    border-radius: 50%;
+    border: 2px solid rgba(50, 102, 245);
+    margin-inline: 65px;
+    margin-top: 30px;
+
+}
+.abouttext{
+    margin-top: 22px;
+}
+.abouttext h2 span{
+    color: rgba(50, 102, 245);
+}
+.abouttext p span{
+    padding: 2px;
+    margin: 5px;
+    color: rgba(228, 226, 226, 0.966);
+}
+.abouttext h2{
+    font-size: 30px;
+    padding: 10px;
+}
+.abouttext p{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.s1{
+    text-align: center;
+    padding: 60px;
+    height: 10px;
+    
+}
+.s1 span{
+    color: rgb(50, 102, 245);
+    font-size: 22px;
+}
+
+.service{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.172);
+    padding: 80px;
+    margin-top: 80px;
+
+}
+.service :hover{
+    border: 2px solid rgb(0, 170, 255);
+}
+.card{
+    width: 250px;
+    padding: 40px;
+    background-color: black;
+    margin-inline: 20px;
+    border-radius: 5px;
+    margin-top:22px;
+}
+.card p{
+    margin-top: 15px;
+    font-size: 18px;
+
+}
+.card i{
+    font-size: 26px;
+}
+.card h3{
+    font-size: 20px;
+}
+
+.wr{
+    text-align: center;
+    padding: 70px;
+    height: 10px;
+
+}
+.wr span{
+    color: rgb(50, 102, 245);
+}
+.mywork{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.workcard{
+    width: 300px;
+    height: 300px;
+    background-color: rgba(128, 128, 128, 0.205);
+    margin-inline: 30px;
+    padding: 15px;
+    margin-top: 25px; 
+    
+}
+.workcard img{
+    width: 100%;
+    height: 250px;
+}
+.workcard p{
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+.Contact{
+    width: 300px;
+    padding: 20px;
+    background-color: rgba(128, 128, 128, 0.241);
+    margin: auto;
+    margin-top: 30px;
+
+}
+.Contact input{
+    width: 90%;
+    padding: 6px;
+    font-size: 17px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    margin-top: 5px;
+}
+.Contact p{
+    margin-top: 20px;
+}
+.Contact button{
+    width: 90px;
+    height: 28px;
+    background-color: blue;
+    color: white;
+    font-size: 17px;
+    border: none;
+    margin-top: 22px;
+}
+
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 55px;
+    margin-top: 66px;
+    background-color: rgba(128, 128, 128, 0.162);
+
+}
+.text{
+    margin-top: 20px;
+}
+.text p{
+    margin-top: 12px;
+}
+
+
